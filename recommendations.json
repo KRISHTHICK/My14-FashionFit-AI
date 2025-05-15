@@ -1,0 +1,18 @@
+{
+  "Hourglass": {
+    "styles": ["Wrap dresses", "High-waisted skirts", "Tailored jackets"],
+    "tip": "Emphasize your waist to enhance natural curves."
+  },
+  "Rectangle": {
+    "styles": ["Ruffled tops", "Peplum jackets", "Layered outfits"],
+    "tip": "Create curves by adding volume to your upper or lower body."
+  },
+  "Inverted Triangle": {
+    "styles": ["A-line skirts", "Wide-leg pants", "V-neck tops"],
+    "tip": "Balance broader shoulders by adding volume below the waist."
+  },
+  "Pear": {
+    "styles": ["Off-shoulder tops", "Structured jackets", "Dark trousers"],
+    "tip": "Draw attention upward with detailed necklines and shoulders."
+  }
+}
