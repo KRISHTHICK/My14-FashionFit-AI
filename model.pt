@@ -1,0 +1,15 @@
+# Save this script as create_dummy_model.py and run once
+import torch.nn as nn
+import torch
+
+class DummyClassifier(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.fc = nn.Linear(224*224*3, 4)
+
+    def forward(self, x):
+        x = x.view(x.size(0), -1)
+        return self.fc(x)
+
+model = DummyClassifier()
+torch.save(model, "bodytype_model/model.pt")
